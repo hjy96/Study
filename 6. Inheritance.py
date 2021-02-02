@@ -5,7 +5,7 @@ class Class1 ( object ) :
 c1 = Class1()
 print( c1, c1.method1() )
 
-class Class3 ( Class1 ) :			#��� !
+class Class3 ( Class1 ) :			# Inhertiance !
 	def method2 ( self ) :
 		return 'm2'
 
