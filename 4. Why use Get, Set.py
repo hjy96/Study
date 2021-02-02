@@ -2,7 +2,7 @@ class Cal ( object ):
 	def __init__ ( self, v1, v2 ):
 		if isinstance( v1, int ):				# in python : if isintance(v, int) => v is int ?
 			self.v1 = v1 
-		if isinstance( v2, int ):				# in ruby : if v.is_a?(Integer) => v is int ? 
+		if isinstance( v2, int ):				# in ruby : if v.is_a?(Integer) => v is int ?
 			self.v2 = v2						# Because ruby instance variable is can't access
 	def add ( self ):
 		return self.v1 + self.v2

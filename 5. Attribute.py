@@ -1,6 +1,6 @@
 class Cal ( object ):
 	def __init__ ( self, v ):
-		self.__value = v			# in python, If two underbars ( __ ) are attached in 
+		self.__value = v			# in python, If two underbars ( __ ) are attached in
 	def show ( self ):			# front of the intance variable, cannot be accessed from the outside.
 		print( self.__value )
 
