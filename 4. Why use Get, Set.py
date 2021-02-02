@@ -1,9 +1,9 @@
 class Cal ( object ):
 	def __init__ ( self, v1, v2 ):
-		if isinstance( v1, int ):				# python if isintance(v, int) => v°¡ intÇü ÀÌ¶ó¸é
+		if isinstance( v1, int ):				# python if isintance(v, int) => vï¿½ï¿½ intï¿½ï¿½ ï¿½Ì¶ï¿½ï¿½
 			self.v1 = v1 
-		if isinstance( v2, int ):				# ruby¿¡¼­´Â if v.is_a?(Integer) => v°¡ intÇü ÀÌ¶ó¸é 
-			self.v2 = v2						# Because ruby¿¡¼­´Â instance°ª¿¡ Á÷Á¢Á¢±ÙÇÒ ¼ö°¡ ¾øÀ½ 
+		if isinstance( v2, int ):				# rubyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ if v.is_a?(Integer) => vï¿½ï¿½ intï¿½ï¿½ ï¿½Ì¶ï¿½ï¿½ 
+			self.v2 = v2						# Because rubyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ instanceï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 	def add ( self ):
 		return self.v1 + self.v2
 	def subtract ( self ):
