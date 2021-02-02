@@ -5,11 +5,11 @@ class Class1 ( object ) :
 c1 = Class1()
 print( c1, c1.method1() )
 
-class Class3 ( Class1 ) :			#»ó¼Ó !
+class Class3 ( Class1 ) :			#Â»Ã³Â¼Ã“ !
 	def method2 ( self ) :
 		return 'm2'
 
-class Class2 ( object )
+class Class2 ( object ) :
 	def method1 ( self ) :
 		return 'm1'
 	def method2( self ) :
