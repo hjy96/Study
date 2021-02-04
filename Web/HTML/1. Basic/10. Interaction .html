@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<input type="button" onclick="winopen()" value="open" />
+	<input type="text" onkeypress="winmessage(this.value)" />
+	<input type="button" value="close" oneclick="winclose()" />
+
+	<script>
+		function winopen() {
+			win = window.open('demo.html', 'ot');
+		}
+		function winmessage(msg) {
+			win.document.getElementById('message').innerText = msg;
+		}
+		function winclose() {
+			win.close();
+		}
+
+	</script>
+</body>
+</html>
