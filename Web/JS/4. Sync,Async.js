@@ -15,3 +15,4 @@ fs.readFile('data.txt', { encoding: 'utf8' }, function (err, data) {		//callback
 	console.log(data);
 })
 console.log(4);
+//test
