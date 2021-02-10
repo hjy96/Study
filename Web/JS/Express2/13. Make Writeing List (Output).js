@@ -29,7 +29,7 @@ app.get(['/topic', '/topic/:id'], function (req, res) {
 			fs.readFile('../data/' + id, 'utf8', function (err, data) {
 				if (err) {
 					console.log(err);
-					res.status(50).send('Internal Server Error');
+					res.status(500).send('Internal Server Error');
 				}
 				res.render('view', { topics: files, title: id, description: data });
 			})
