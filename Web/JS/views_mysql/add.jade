@@ -9,12 +9,12 @@ html
 			each topic in topics
 				li
 					a(href='/topic/'+topic.id)= topic.title
-		article
+		artcle
 			form(action = '/topic/add' method = 'post')
 				p
 					input(tpye = 'text' name = 'title' placeholder = 'title')
 				p
-					textarea(name = 'description' placeholder = 'discription')
+					textarea(name = 'description' placeholder = 'description')
 				p
 					input(tpye = 'text' name = 'author' placeholder = 'author')
 				p
