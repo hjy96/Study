@@ -4,5 +4,8 @@
   "description": "FromExistingCode1",
   "author": {
     "name": ""
+  },
+  "dependencies": {
+    "mongodb": "^3.6.4"
   }
 }

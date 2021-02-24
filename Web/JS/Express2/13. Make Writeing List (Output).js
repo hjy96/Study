@@ -6,6 +6,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.locals.pretty = true;
 app.set('views', '../views_file');
 app.set('view engine', 'jade');
+
 app.get('/topic/new', function (req, res) {
 	fs.readdir('../data', function (err, files) {
 		if (err) {
